@@ -9,7 +9,7 @@ docker run --rm -it \
     -e IMAP_SERVER=<YOUR-SERVER-ADDRESS> \
     -e IMAP_USER=<YOUR-USERNAME> \
     -e IMAP_PASSWORD=<YOUR-PASSWORD> \
-    -v <YOUR-BACKUP-TARGET-DIR>:/mail_data
+    -v <YOUR-BACKUP-TARGET-DIR>:/mail_data \
     bymh/imap-backup:latest
 ```
 
