@@ -1,0 +1,11 @@
+{
+    "accounts": [
+        {
+            "username": "${IMAP_USER}",
+            "password": "${IMAP_PASSWORD}",
+            "server": "${IMAP_SERVER}",
+            "local_path": "/mail_data"
+        }
+    ],
+    "debug": true
+}
