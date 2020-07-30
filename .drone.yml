@@ -10,6 +10,6 @@ steps:
       from_secret: docker_user
     password:
       from_secret: docker_password
-    repo: hub.docker.com/imap-backup
+    repo: hub.docker.com/r/jacob1123/imap-backup
     tags:
       - latest
